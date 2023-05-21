@@ -135,7 +135,7 @@ body{
     body{
         background-image: url(img/pattern-background-mobile.svg);
         background-repeat: no-repeat;
-       background-size: contain;
+        background-size: contain;
     }
 
     .content-card{
