@@ -54,7 +54,7 @@ body{
     text-align: center;
     color: #9ba1ac;
     font-size: 17px;
-    line-height: 25px;
+    line-height: 24px;
     padding-top: 10px;
     font-weight: 500;
 }
@@ -131,7 +131,9 @@ body{
     margin-right: 10px;
 }
 
-@media screen and (min-width: 375px) {
+/*media query*/
+
+@media (min-width: 375px) and (max-width: 785px){
     body{
         background-image: url(img/pattern-background-mobile.svg);
         background-repeat: no-repeat;
@@ -140,8 +142,18 @@ body{
 
     .content-card{
         width: 330px;
-    
     }
+
+    .content-plan h4{
+       display: block;
+       margin: auto;
+    }
+
+    .content-paragraph p{
+        font-size: 15px;
+        
+    }
+
 }
 
 
