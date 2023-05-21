@@ -11,7 +11,6 @@ body{
   background-color: rgba(224,232,255,255);
   background-image: url(img/pattern-background-desktop.svg);
   background-repeat: no-repeat;
-  background-position: center top;
   background-size: contain;
   width: 100%;
   height: 100%;
@@ -132,6 +131,18 @@ body{
     margin-right: 10px;
 }
 
+@media screen and (min-width: 375px) {
+    body{
+        background-image: url(img/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+       background-size: contain;
+    }
+
+    .content-card{
+        width: 330px;
+    
+    }
+}
 
 
 
