@@ -1,2 +1,2 @@
-# QR code 
-um card de QR code simples
+### Desafio Frontend Mentor
+
