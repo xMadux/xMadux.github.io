@@ -176,6 +176,11 @@ body{
     .img-box{
         width: 250px;
     }
+
+    .active:hover::after{
+        width: 250px;
+        height: 250px;
+    }
 }
 
 
